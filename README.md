@@ -109,6 +109,21 @@ Unit Testing
 Unit tests are provided for the validation and JSON conversion logic. To run the tests:
 npx mocha test/invoiceTest.js
 
+## Postman Collection
+
+A Postman collection has been provided to help test the API endpoints.
+
+### How to Use the Postman Collection
+
+1. Open Postman.
+2. Click on the **Import** button in the top-left corner.
+3. Choose the file **`postman/invoice-service.postman_collection.json`** from this project directory.
+4. The collection will be imported and you can use it to test the various API endpoints.
+
+The following API endpoints are available in the collection:
+- **POST /invoices/upload**: Upload a CSV or Excel file to process and validate invoices.
+
+
 invoice-service/
 │
 ├── controllers/

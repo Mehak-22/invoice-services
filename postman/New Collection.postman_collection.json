@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "40753454-0398-409f-8900-55679b5d9d46",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38211110",
+		"_collection_link": "https://me3333-9726.postman.co/workspace/304c1dfe-b509-40e3-abf9-153f8eda4bbb/collection/38211110-40753454-0398-409f-8900-55679b5d9d46?action=share&source=collection_link&creator=38211110"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/invoices/upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/ASUS/Downloads/test4 - Sheet1 .csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/invoices/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"invoices",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
